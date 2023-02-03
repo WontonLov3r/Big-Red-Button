@@ -1,0 +1,34 @@
+button:active {
+  background: linear-gradient (red, white);
+}
+
+button {
+  border: none;
+  border-radius: 200px;
+  color: red;
+  background-color: white;
+  padding: 60px 128px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+
+.red {
+  color: red;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+button:active {
+  background-image: linear-gradient(red, white);
+  color: white;
+}
